@@ -1,0 +1,377 @@
+/*******************************
+!Font Family
+***********************************************************************************************/
+@font-face {
+    font-family: 'OrbitronMedium';
+    src: url('orbitron/orbitron-medium-webfont.eot');
+    src: url('orbitron/orbitron-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('orbitron/orbitron-medium-webfont.woff') format('woff'),
+         url('orbitron/orbitron-medium-webfont.ttf') format('truetype'),
+         url('orbitron/orbitron-medium-webfont.svg#OrbitronMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OrbitronLight';
+    src: url('orbitron/orbitron-light-webfont.eot');
+    src: url('orbitron/orbitron-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('orbitron/orbitron-light-webfont.woff') format('woff'),
+         url('orbitron/orbitron-light-webfont.ttf') format('truetype'),
+         url('orbitron/orbitron-light-webfont.svg#OrbitronLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p, li, a, span {
+	font-family: 'OrbitronMedium', Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, #MyFooter {
+	font-family: 'OrbitronLight', Helvetica, sans-serif;
+	font-style: normal;
+}
+
+#MyFooter p {
+	text-align: center;
+}
+
+.DarkRed {
+	color: #990000; /***DarkRed***/
+}
+
+/*******************************
+!Mainpage Background
+***********************************************************************************************/	
+.ui-content {
+	background: url("../images/background0.png");
+	background-repeat: repeat;
+}
+
+.ui-page {
+	background: url("../images/background0.png");
+	background-repeat: repeat;
+}
+
+#Home h1 {
+	font-size: 1.5em;
+	margin-bottom: .4em;
+	margin-top: .2em;
+}
+
+#Home .ui-bar-a .ui-link {
+	color: #FFFFFF;
+}
+
+#Home .ui-footer h2 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#Home .ui-btn {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.ui-controlgroup-horizontal {
+	padding: .2em;
+ 	width: 50%;
+	margin: auto;
+}
+
+/*******************************
+!Images
+***********************************************************************************************/
+.ImageShadow {
+	background-color: #666;
+	border-radius: 5px;
+	padding: 15px 10px 15px 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.ImageShadow img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	max-width: 500px;
+	max-height: 400px;
+}
+
+#UBolt img {
+	max-width: 300px;
+	max-height: 200px;
+	}
+
+#SteelChoker img {
+	padding-top: 20px;
+}
+
+#SyntheticWebSlings img {
+	padding-top: 20px;
+}
+
+#WireRopeClips img {
+	padding-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+	img {
+		max-width: 50%;
+	}
+	
+	#SteelChoker img {
+		max-width: 100%;
+	}
+	
+	#SyntheticWebSlings img {
+		max-width: 100%
+	}
+		
+	#WireRopeClips img {
+		max-width: 40%;
+	}
+	
+	#UBolt img {
+		max-width: 100%;
+	}
+	
+	#steelplate img {
+		max-width: 100%;
+	}
+}
+
+/*******************************
+!Title Bar
+***********************************************************************************************/
+#SteelChoker .ui-title, #SyntheticWebSlings .ui-title, #WireRopeClips .ui-title,
+#WeightsOfMaterials .ui-title {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*******************************
+!Steel Chokers
+***********************************************************************************************/
+#a1-4in h2, #a5-16in h2, #a3-8in h2, #a7-16in h2, 
+#a1-2in h2, #a9-16in h2, #a5-8in h2,
+#a3-4in h2, #a7-8in h2, #a1in h2 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#a1-4in .orbitron li, #a5-16in .orbitron li, #a3-8in .orbitron li, #a7-16in .orbitron li, 
+#a1-2in .orbitron li, #a9-16in .orbitron li, #a5-8in .orbitron li,
+#a3-4in .orbitron li, #a7-8in .orbitron li, #a1in .orbitron li {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+/*******************************
+!Decimal Equivalents Of Fractions
+***********************************************************************************************/
+#DecimalEquivalentsOfFractions h1 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#Fractions li {
+	/***color: #336600; green***/
+}
+
+#Fractions .Decimal, .OneInDecimal {
+	color: #990000; /***DarkRed***/
+}
+
+#Fractions .Equal2, .Equal3, .Equal4 {
+	color: black;
+}
+
+#Fractions {
+	margin: 0 auto;
+	padding-top: 4%;
+}
+
+#Fractions li {
+	font-family: 'OrbitronMedium';
+}
+
+/*******************************
+ !Steel Plate
+***********************************************************************************************/
+li .DarkRed {
+	color: #990000; /***DarkRed***/
+}
+
+/*******************************
+ !Steel Angle
+***********************************************************************************************/
+#steelangle .orbitron li {
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+/*******************************
+ !Steel Flatbar
+***********************************************************************************************/
+#steelflatbar .orbitron li {
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+/*******************************
+ !Steel Plate
+***********************************************************************************************/
+#steelplate .orbitron li {
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+/*******************************
+!U-Bolt & Saddle Type
+***********************************************************************************************/
+#b1-8in h2, #b3-16in h2, #b1-4in h2, #b5-16in h2, 
+#b3-8in h2, #b7-16in h2, #b1-2in h2,
+#b9-16in h2, #b5-8in h2, #b3-4in h2, #b7-8in h2, #b1in h2 {
+	margin-left: 0;
+	margin-right: 0;
+}
+#b1-8in .clips li, #b3-16in .clips li, #b1-4in .clips li, #b5-16in .clips li, 
+#b3-8in .clips li, #b7-16in .clips li, #b1-2in .clips li, #b9-16in .clips li, 
+#b5-8in .clips li, #b3-4in .clips li, #b7-8in .clips li, #b1in .clips li {
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+#UBolt h1 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*******************************
+!IntegralSaddle
+***********************************************************************************************/
+#c1-8in h2, #c3-16in h2, #c1-4in h2, #c5-16in h2, 
+#c3-8in h2, #c7-16in h2, #c1-2in h2,
+#c9-16in h2, #c5-8in h2, #c3-4in h2, #c7-8in h2, #c1in h2 {
+	margin-left: 0;
+	margin-right: 0;
+}
+#c1-8in .clips li, #c3-16in .clips li, #c1-4in .clips li, #c5-16in .clips li, 
+#c3-8in .clips li, #c7-16in .clips li, #c1-2in .clips li, #c9-16in .clips li, 
+#c5-8in .clips li, #c3-4in .clips li, #c7-8in .clips li, #c1in .clips li {
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+#IntegralSaddle h1 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*******************************
+!Synthetic Slings
+***********************************************************************************************/
+#As1in .orbitron li, #As2in .orbitron li, #A31in .orbitron li, #As4in .orbitron li, 
+#As6in .orbitron li, #Bs1in .orbitron li, #Bs2in .orbitron li, #Bs3in .orbitron li, 
+#Bs4in .orbitron li, #Bs6in .orbitron li {
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+/*******************************
+!EyeSling
+***********************************************************************************************/
+#EyeSling h1 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#As1in h2, #As1-1-2in h2, #As1-3-4in h2, #As2in h2, 
+#As3in h2, #As4in h2, #As5in h2, #As6in h2 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#As1in h2, #As1-1-2in h2, #As1-3-4in h2, #As2in h2, 
+#As3in h2, #As4in h2, #As5in h2, #As6in h2 {
+	line-height: 1.25em
+}
+
+/*******************************
+!EndlessSling
+***********************************************************************************************/
+#EndlessSling h1 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#Bs1in h2, #Bs2in h2, #Bs3in h2, 
+#Bs4in h2, #Bs5in h2, #Bs6in h2 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#Bs1in h2, #Bs2in h2, #Bs3in h2, 
+#Bs4in h2, #Bs5in h2, #Bs6in h2 {
+	line-height: 1.25em
+}
+
+/*******************************
+Header & List Divider
+****************************
+.ui-bar-a {
+	background-image: -webkit-linear-gradient(top,#1C1C27,#101060);
+	background-image: -moz-linear-gradient(top,#5A5A5A,#1C1C27);
+	background-image: -ms-linear-gradient(top,#5A5A5A,#1C1C27);
+	background-image: -o-linear-gradient(top,#5A5A5A,#1C1C27);
+	background-image: linear-gradient(top,#5A5A5A,#1C1C27);
+}
+
+/*******************************
+Nav Bar Bottom
+****************************
+.ui-btn-up-a {
+	background-image: -webkit-linear-gradient(top,#101060,#1C1C27);
+	background-image: -moz-linear-gradient(top,#101060,#1C1C27);
+	background-image: -ms-linear-gradient(top,#101060,#1C1C27);
+	background-image: -o-linear-gradient(top,#101060,#1C1C27);
+	background-image: linear-gradient(top,#101060,#1C1C27);
+}
+
+.ui-btn-down-a {
+	background-image: -webkit-linear-gradient(top,#101060,#1C1C27);
+	background-image: -moz-linear-gradient(top,#5A5A5A,#1C1C27);
+	background-image: -ms-linear-gradient(top,#5A5A5A,#1C1C27);
+	background-image: -o-linear-gradient(top,#5A5A5A,#1C1C27);
+	background-image: linear-gradient(top,#5A5A5A,#1C1C27);
+}
+
+.ui-btn-hover-a {
+	background-image: -webkit-linear-gradient(top,#101060,#0D0D0D);
+	background-image: -moz-linear-gradient(top,#1C1C27,#0D0D0D);
+	background-image: -ms-linear-gradient(top,#1C1C27,#0D0D0D);
+	background-image: -o-linear-gradient(top,#1C1C27,#0D0D0D);
+	background-image: linear-gradient(top,#1C1C27,#0D0D0D);
+}
+
+***********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
